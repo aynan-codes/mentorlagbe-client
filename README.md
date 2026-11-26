@@ -1,4 +1,4 @@
-# MentorLagbe — Client
+﻿# MentorLagbe — Client
 
 MentorLagbe is a modern online tutoring platform that connects students with qualified tutors across Bangladesh. Students can find suitable tutors, apply for tuition opportunities, and manage their learning journey, while tutors can create tuition posts and manage student applications.
 
@@ -65,7 +65,7 @@ MentorLagbe is a modern online tutoring platform that connects students with qua
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_CLIENT_REPOSITORY_URL
+git clone https://github.com/aynan-codes/mentorlagbe-client.git
 ```
 
 ### 2. Navigate to the Project Directory
