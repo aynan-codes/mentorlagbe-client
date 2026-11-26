@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MentorLagbe — Client
 
-## Getting Started
+MentorLagbe is a modern online tutoring platform that connects students with qualified tutors across Bangladesh. Students can find suitable tutors, apply for tuition opportunities, and manage their learning journey, while tutors can create tuition posts and manage student applications.
 
-First, run the development server:
+## 🚀 Features
+
+### 👨‍🎓 Student
+- Browse and search available tuition opportunities.
+- Filter tuitions by subject, location, and other criteria.
+- View detailed tuition information.
+- Apply for tuition opportunities.
+- Save and manage bookmarked tuitions.
+- Track application status.
+- Manage personal profile and profile picture.
+- Upgrade to Student Pro membership.
+- View payment history.
+
+### 👨‍🏫 Tutor
+- Create, edit, and manage tuition posts.
+- View and manage student applications.
+- Track tuition activities.
+- Manage personal profile and profile picture.
+- Upgrade to Tutor Pro membership.
+- View payment history.
+
+### 🛡️ Admin
+- Manage platform users.
+- Manage tuition posts.
+- Review and approve or reject pending tuitions.
+- View and manage transactions.
+- Search and filter records.
+
+### 🌟 General Features
+- Responsive user interface.
+- Google Authentication and email/password authentication.
+- Role-based dashboards.
+- Dark and Light theme.
+- Secure authentication.
+- Stripe payment integration.
+- Profile image upload using ImgBB.
+- Loading, error, and not-found pages.
+
+## 🛠️ Technologies Used
+
+### Frontend
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Lucide React
+
+### Authentication & Services
+- Better Auth
+- Stripe
+- ImgBB
+
+### Development Tools
+- Git
+- GitHub
+- npm
+
+## 📦 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone YOUR_CLIENT_REPOSITORY_URL
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd mentorlagbe-client
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure Environment Variables
+
+Create a `.env.local` file in the project root and add the environment variables required by the application.
+
+Use the variable names defined in the project's configuration files. Never share secret keys or credentials publicly.
+
+### 5. Run the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗️ Production Build
 
-## Learn More
+To create an optimized production build:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+## 💳 Membership Plans
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Membership | Price |
+|---|---:|
+| Student Pro | $10 |
+| Tutor Pro | $15 |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Payments are integrated using Stripe Checkout.
+
+## 🔐 Security
+
+- Authentication-based protected routes.
+- Role-based access control.
+- Secure API communication.
+- Environment variables for sensitive configuration.
+- Payment processing through Stripe.
+
+## 👨‍💻 Author
+
+**Abu Baten Mohammad Aynan**
+
+- GitHub: [aynan-codes](https://github.com/aynan-codes)
+- LinkedIn: [Abu Baten Mohammad Aynan](https://www.linkedin.com/in/abu-baten-aynan/)
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
